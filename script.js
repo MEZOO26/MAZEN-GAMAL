@@ -1,0 +1,1 @@
+const code=document.getElementById('code');const preview=document.getElementById('preview');function runCode(){preview.srcdoc=code.value}document.getElementById('run').addEventListener('click',runCode);document.getElementById('year').textContent=new Date().getFullYear();runCode();
